@@ -30,3 +30,12 @@ RENAME COLUMN PolicyStartDateNew TO PolicyStartDate;
 - Step 7: Loaded the dataset from MySQL Workbench to PowerBI (Get Data - More - MySQL Datasets).
 - Step 8: Chose "Transform Data" and checked "Column distribution", "Column quality" and "Column profile" options for 4 tables present in the Dataset to see detailed overview of each column.
 - 
+
+
+- Step : To create age groups, in Power Query, created conditional column "Age Group":
+```sql
+if "Age" <= 24 then "Young Adult",
+elif "Age" <= 60 then "Adult,
+else "Elder"
+```
+- Step : Changed datatype to text for the column.
