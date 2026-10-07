@@ -1,4 +1,4 @@
-# Insurance-Project-SQL-PowerBI-
+# Insurance Project SQL+PowerBI
 Demontsrating pipeling from transforming dataset in MySQL Workbench and transporting it to PowerBI with further analysis
 
 ## Steps followed:
