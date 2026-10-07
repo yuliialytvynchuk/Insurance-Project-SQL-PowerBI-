@@ -1,5 +1,5 @@
 # Insurance Project SQL+PowerBI
-Demontsrating pipeling from transforming dataset in MySQL Workbench and transporting it to PowerBI with further analysis
+Demontsrating pipeling from transforming dataset in MySQL Workbench and transporting it to PowerBI with further analysis and role modelling
 
 ## Steps followed:
 
